@@ -1,0 +1,81 @@
+/* line 6, ../sass/projects.scss */
+h2, p {
+  text-align: centre;
+  color: white;
+  margin: 10px;
+}
+
+/* line 12, ../sass/projects.scss */
+#image1 {
+  background: url("../../assets/images/black.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 16, ../sass/projects.scss */
+#image2 {
+  background: url("../../assets/images/black2.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 20, ../sass/projects.scss */
+#image3 {
+  background: url("../../assets/images/black3.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 24, ../sass/projects.scss */
+.container {
+  height: 100vh;
+  text-align: centre;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 30, ../sass/projects.scss */
+.caption {
+  text-align: centre;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  background: #ec7964;
+  opacity: 0.8;
+  margin: 20px auto;
+}
+
+/* line 39, ../sass/projects.scss */
+.round {
+  border-radius: 50%;
+}
+
+/* line 43, ../sass/projects.scss */
+.text {
+  display: block;
+  max-width: 300px;
+  text-align: center;
+}
+
+@media screen and (min-width: 770px) {
+  /* line 50, ../sass/projects.scss */
+  #image1, #image2 {
+    background-attachment: fixed;
+  }
+}
+@media screen and (max-width: 500px) {
+  /* line 56, ../sass/projects.scss */
+  .caption {
+    height: 300px;
+    width: 300px;
+  }
+}

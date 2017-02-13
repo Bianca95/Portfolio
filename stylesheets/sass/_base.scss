@@ -1,0 +1,55 @@
+@import "susy";
+@import "compass/css3";
+
+$blueprint-grid-columns : 12;
+$blueprint-grid-width: 30px;
+$blueprint-grid-margin: 10px;
+
+@mixin line-base {
+	background: #fff;
+  	height: 2px;
+  	width: 15px;
+  	position: absolute;
+  	right: 33px;
+}
+
+@mixin cover($link) {
+	background: url($link) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+@mixin centre {
+	text-align: centre;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@mixin bar($percent) {
+	width: 0px;
+	  background: $red;
+	  -webkit-animation: $percent 2s ease-out forwards;
+	     -moz-animation: $percent 2s ease-out forwards;
+	      -ms-animation: $percent 2s ease-out forwards;
+	       -o-animation: $percent 2s ease-out forwards;
+	          animation: $percent 2s ease-out forwards;
+}
+
+@mixin load($percent) {
+	0% {
+        width: 0px;
+    }
+
+    100% {
+        width: $percent;
+    }
+}
+
+//Configuring Susy Defaults
+//$susy: (
+//  global-box-sizing: border-box,
+//  use-custom: (rem: true)
+//);

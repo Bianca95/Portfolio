@@ -1,0 +1,62 @@
+@import "base";
+
+$dark-grey: #5F5F5F;
+$red: #ec7964;
+
+header {
+  @include centre;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+#container {
+  @include centre;
+  background-color: $red;
+  opacity: 0.8;
+  border-radius: 5px;
+  margin: 0 auto;
+  width: 40%;
+  height: 40%;
+}
+
+#form-container {
+  @include centre;
+  max-width: 80%;
+  margin: 5% auto; 
+}
+
+.titles {
+  float: left;
+  color: white;
+  margin: 8px auto;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin-top: 8px;
+  margin-left: 8px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 50%;
+  background-color: white;
+  color: $red;
+  padding: 14px 25px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 5%;
+}
+
+input[type=submit]:hover {
+  background-color: $dark-grey;
+}
+
+.error {
+  color: red;
+}

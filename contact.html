@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BP-Contact</title>
+
+    <link rel="stylesheet" href="stylesheets/stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/stylesheets/animate.css">
+    <link rel="stylesheet" href="stylesheets/stylesheets/contact.css">
+
+</head>
+<body>
+  	<div class="bar">
+  		<div id="logo"><a href="index.html"><h3>BP</h3></a></div>
+  	</div>
+  	<nav>
+	  	<div id="menu" class="menu"></div>
+	  	<span class="linee linea1"></span>
+	  	<span class="linee linea2"></span>
+	  	<span class="linee linea3"></span>
+	  	<div class="menu-links">
+	    	<ul>
+		      <li><a href="index.html">Home</a></li>
+		      <li><a href="timeline.html">Timeline</a></li>
+		      <li><a href="projects.html">Projects</a></li>
+		      <li><a href="contact.html">Contact</a></li>
+		    </ul>
+		</div>
+	</nav>
+
+
+	<header>
+		<div id="container">
+		  	<div id="form-container">
+		  		<form action="php/contact.php" method="post">
+		  			<h1>Contact me</h1>
+		  			<table>
+		  			<tbody>
+		  				<tr>
+		  					<td><label class="titles" for="name">Name</label></td>
+		  					<td><input type="text" name="name" size="20" maxlength="40"></td>
+		  				</tr>
+		  				<tr>
+		  					<td><label class="titles" for="email">E-mail</label></td>
+		  					<td><input type="text" name="email" size="40" maxlength="60"></td>
+		  				</tr>
+		  				<tr>
+		  					<td><label class="titles" for="why">Reason</label>
+		  					</td>
+		  					<td>
+		  						<select name="why">
+		  							<option value="choice1">I need help with a project</option>
+		  							<option value="choice2">I have a question</option>
+		  							<option value="choice3">Just saying hi</option>
+		  						</select>
+		  					</td>
+		  				</tr>
+		  				<tr>
+		  					<td><label class="titles" for="why">Message</label>
+		  					</td>
+		  					<td><textarea name="message">Write your message here...</textarea></td>
+		  				</tr>
+		  				<tr>
+		  					<td colspan="2" align="center">
+		  						<input type="submit" name="submit" value="Send">
+		  					</td>
+		  				</tr>
+		  			</tbody>
+		  			</table>
+		  		</form>
+		  	</div>
+		</div>
+	</header>
+	<footer>
+		<section>
+			<h3><b>Bianca Prodan</b></h3>
+			<p><b>0753-550-8122<br /><br />
+			b.prodan95@gmail.com</b>
+			</p>
+		</section>
+
+		<section>
+			<h3>LET'S GET CODE-NECTED</h3>
+			<ul class="social">
+				<li><a href="https://github.com/Bianca95"><img src="assets/icons/git.png" onmouseover="this.src='assets/icons/git-h.png'" onmouseout="this.src='assets/icons/git.png'" /></a></li>
+				<li><a href="https://www.codecademy.com/BP95"><img src="assets/icons/codec.png" onmouseover="this.src='assets/icons/codec-h.png'" onmouseout="this.src='assets/icons/codec.png'" /></a></li>
+				<li><a href="https://500px.com/bprodan95"><img src="assets/icons/500.png" onmouseover="this.src='assets/icons/500-h.png'" onmouseout="this.src='assets/icons/500.png'" /></a></li>
+			</ul>
+		</section>
+
+		<section>
+			<a href="facebook.com"><img id="me" src="assets/images/me.jpg" /></a>
+		</section>
+	</footer>
+	<footer id="second">
+		<p>©Copyright Bianca Prodan 2016</p>
+	</footer>
+
+<script src="http://code.jquery.com/jquery-3.1.0.slim.min.js"></script>
+<script type="text/javascript" src="scripts/menu.js"></script>
+</body>
+</html>

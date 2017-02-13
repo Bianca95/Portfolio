@@ -1,0 +1,60 @@
+@import "base";
+
+$dark-grey: #5F5F5F;
+$red: #ec7964;
+
+h2, p {
+	text-align: centre;
+	color: white;
+	margin: 10px;
+}
+
+#image1 {
+	@include cover("../../assets/images/black.jpg");
+}
+
+#image2 {
+	@include cover("../../assets/images/black2.jpg");
+}
+
+#image3 {
+	@include cover("../../assets/images/black3.jpg");
+}
+
+.container {
+  	height: 100vh;
+  	@include centre;
+  	
+}
+
+.caption {
+	@include centre;
+	width: 400px;
+	height: 400px;
+	background: $red;
+	opacity: 0.8;
+	margin: 20px auto;
+}
+
+.round {
+	border-radius: 50%;
+}
+
+.text {
+	display: block;
+	max-width: 300px;
+	text-align: center;
+}
+
+@media screen and (min-width: 770px) {
+	#image1, #image2 {
+		background-attachment: fixed;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.caption {
+		height: 300px;
+		width: 300px;
+	}
+}
