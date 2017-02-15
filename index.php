@@ -1,4 +1,6 @@
-<?php require("templates/head.html") ?>
+<head>
+  <link rel="import" href="templates/head.html">
+</head>
 
 	<header>
 	  	<div class="container">
