@@ -5,17 +5,7 @@ h2, p {
   margin: 10px;
 }
 
-/* line 12, ../sass/projects.scss */
 #image1 {
-  background: url("../../assets/images/black.jpg") no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-/* line 16, ../sass/projects.scss */
-#image2 {
   background: url("../../assets/images/black2.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -23,7 +13,14 @@ h2, p {
   background-size: cover;
 }
 
-/* line 20, ../sass/projects.scss */
+#image2 {
+  background: url("../../assets/images/black4.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 #image3 {
   background: url("../../assets/images/black3.jpg") no-repeat center center;
   -webkit-background-size: cover;
