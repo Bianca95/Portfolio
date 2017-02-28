@@ -233,6 +233,7 @@ header {
   padding-top: 20%;
   padding-bottom: 20%;
 }
+
 @media screen and (max-width: 414px) {
   /* line 191, ../sass/style.scss */
   header {
