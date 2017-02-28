@@ -6,7 +6,7 @@ h2, p {
 }
 
 #image1 {
-  background: url("../../assets/images/black2.jpg") no-repeat center center;
+  background: url("../../assets/images/black1.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -14,7 +14,7 @@ h2, p {
 }
 
 #image2 {
-  background: url("../../assets/images/black4.jpg") no-repeat center center;
+  background: url("../../assets/images/black3.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -22,7 +22,15 @@ h2, p {
 }
 
 #image3 {
-  background: url("../../assets/images/black3.jpg") no-repeat center center;
+  background: url("../../assets/images/black2.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#image4 {
+  background: url("../../assets/images/black4.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
