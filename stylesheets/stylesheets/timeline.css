@@ -202,3 +202,15 @@ a:hover {
             border-bottom: 1em solid #e57373; }
 
 /*# sourceMappingURL=timelify.css.map */
+@media screen and (max-width: 478px) {
+  .timeline .timeline-items .timeline-item {
+      position: relative;
+      text-align: justify;
+      width: 100%; }
+
+  .timeline .timeline-items .timeline-item.inverted {
+      position: relative;
+      text-align: justify;
+      left: 0%;
+      width: 100%; }
+}
