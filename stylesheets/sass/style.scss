@@ -205,6 +205,7 @@ header {
 
 .flexi {
   height: auto;
+  text-align: center;
 }
 
 .header-intro {
@@ -239,89 +240,24 @@ header {
   }
 }
 
-.bar-section {
-  h2 {
-    color: $dark-grey;
-  }
+.icon {
+    width: 200px;
+    height: 200px;
+    margin: none; 
+    background-color: transparent;
+    display: inline-block;
+    transition: background-image 0.8s ease;
+    &:hover {
+      background-color: #ec7964;
+    }
+}
+/* Uses fct in base to set and change img */
+#html {
+  @include icon(html);
 }
 
-.loading-bar {
-  height:20px;
-  background: $dark-grey;
-  color:#f4f4f4;
-  text-align:center;
-  width:100%;
-}
-
-.level {
-  height:20px;
-  background:$red;
-}
-
-//----One level----//
-//----THIRTY----//
-.thirty.start {
-  @include bar(thirty);
-}
-
-@-moz-keyframes thirty {
-  @include load(30%);
-}
-
-@-webkit-keyframes thirty {
-  @include load(30%);
-}
-
-//----FIFTY----//
-.fifty.start {
-  @include bar(fifty);
-}
-
-@-moz-keyframes fifty {
-  @include load(50%);
-}
-
-@-webkit-keyframes fifty {
-  @include load(50%);
-}
-
-//----SEVENTY----//
-.seventy.start {
-  @include bar(seventy);
-}
-
-@-moz-keyframes seventy {
-  @include load(70%);
-}
-
-@-webkit-keyframes seventy {
-  @include load(70%);
-}
-
-//----EIGHTY----//
-.eighty.start {
-  @include bar(eighty);
-}
-
-@-moz-keyframes eighty {
-  @include load(80%);
-}
-
-@-webkit-keyframes eighty {
-  @include load(80%);
-}
-
-//----NINETY----//
-.ninety.start {
-  @include bar(ninety);
-}
-
-@-moz-keyframes ninety {
-  @include load(90%);
-}
-
-@-webkit-keyframes ninety {
-  @include load(90%);
+#css {
+  @include icon(css);
 }
 
 section {

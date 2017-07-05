@@ -48,6 +48,13 @@ $blueprint-grid-margin: 10px;
     }
 }
 
+@mixin icon($name) {
+	background-image: url('../../assets/icons/lang/#{$name}1.png');
+  	&:hover {
+    background-image: url('../../assets/icons/lang/#{$name}2.png');
+  }
+}
+
 //Configuring Susy Defaults
 //$susy: (
 //  global-box-sizing: border-box,

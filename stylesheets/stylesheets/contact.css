@@ -72,10 +72,3 @@ input[type=submit]:hover {
 .error {
   color: red;
 }
-
-@media screen and (max-width: 478px) {
-  #container {
-    margin-top: 15%;
-    width: 90%;
-  }
-}
