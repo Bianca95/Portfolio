@@ -252,7 +252,7 @@ header {
   text-align: center;
 }
 
-/* line 210, ../sass/style.scss */
+/* line 211, ../sass/style.scss */
 .header-intro {
   text-align: center;
   color: white;
@@ -260,13 +260,13 @@ header {
   max-width: 728px;
   margin: auto;
 }
-/* line 216, ../sass/style.scss */
+/* line 217, ../sass/style.scss */
 .header-intro::before {
   content: "";
   margin-right: 10px;
 }
 
-/* line 222, ../sass/style.scss */
+/* line 223, ../sass/style.scss */
 .paragraph {
   overflow: hidden;
   position: relative;
@@ -276,21 +276,21 @@ header {
   box-sizing: border-box;
   transform-style: inherit;
 }
-/* line 230, ../sass/style.scss */
+/* line 231, ../sass/style.scss */
 .paragraph, .paragraph:before {
   background: 50% 50% / cover;
 }
 
-/* line 235, ../sass/style.scss */
+/* line 236, ../sass/style.scss */
 .color {
   background-color: #D6D6D6;
 }
-/* line 237, ../sass/style.scss */
+/* line 238, ../sass/style.scss */
 .color h1 {
   color: #5F5F5F;
 }
 
-/* line 242, ../sass/style.scss */
+/* line 243, ../sass/style.scss */
 .icon {
   width: 200px;
   height: 200px;
@@ -299,12 +299,13 @@ header {
   display: inline-block;
   transition: background-image 0.8s ease;
 }
-/* line 249, ../sass/style.scss */
+/* line 250, ../sass/style.scss */
 .icon:hover {
   background-color: #ec7964;
 }
 
-/* line 254, ../sass/style.scss */
+/* Uses fct in base to set and change img */
+/* line 255, ../sass/style.scss */
 #html {
   background-image: url("../../assets/icons/lang/html1.png");
 }
@@ -313,16 +314,133 @@ header {
   background-image: url("../../assets/icons/lang/html2.png");
 }
 
-/* line 258, ../sass/style.scss */
+/* line 259, ../sass/style.scss */
 #css {
   background-image: url("../../assets/icons/lang/css1.png");
 }
-/* line 260, ../sass/style.scss */
+/* line 53, ../sass/_base.scss */
 #css:hover {
   background-image: url("../../assets/icons/lang/css2.png");
 }
 
-/* line 265, ../sass/style.scss */
+/* line 263, ../sass/style.scss */
+#sass {
+  background-image: url("../../assets/icons/lang/sass1.png");
+}
+/* line 53, ../sass/_base.scss */
+#sass:hover {
+  background-image: url("../../assets/icons/lang/sass2.png");
+}
+
+/* line 267, ../sass/style.scss */
+#php {
+  background-image: url("../../assets/icons/lang/php1.png");
+}
+/* line 53, ../sass/_base.scss */
+#php:hover {
+  background-image: url("../../assets/icons/lang/php2.png");
+}
+
+/* line 271, ../sass/style.scss */
+#mysql {
+  background-image: url("../../assets/icons/lang/mysql1.png");
+}
+/* line 53, ../sass/_base.scss */
+#mysql:hover {
+  background-image: url("../../assets/icons/lang/mysql2.png");
+}
+
+/* line 275, ../sass/style.scss */
+#js {
+  background-image: url("../../assets/icons/lang/js1.png");
+}
+/* line 53, ../sass/_base.scss */
+#js:hover {
+  background-image: url("../../assets/icons/lang/js2.png");
+}
+
+/* line 279, ../sass/style.scss */
+#jq {
+  background-image: url("../../assets/icons/lang/jq1.png");
+}
+/* line 53, ../sass/_base.scss */
+#jq:hover {
+  background-image: url("../../assets/icons/lang/jq2.png");
+}
+
+/* line 283, ../sass/style.scss */
+#b {
+  background-image: url("../../assets/icons/lang/b1.png");
+}
+/* line 53, ../sass/_base.scss */
+#b:hover {
+  background-image: url("../../assets/icons/lang/b2.png");
+}
+
+/* line 287, ../sass/style.scss */
+#java {
+  background-image: url("../../assets/icons/lang/java1.png");
+}
+/* line 53, ../sass/_base.scss */
+#java:hover {
+  background-image: url("../../assets/icons/lang/java2.png");
+}
+
+/* line 291, ../sass/style.scss */
+#csharp {
+  background-image: url("../../assets/icons/lang/csharp1.png");
+}
+/* line 53, ../sass/_base.scss */
+#csharp:hover {
+  background-image: url("../../assets/icons/lang/csharp2.png");
+}
+
+/* line 295, ../sass/style.scss */
+#python {
+  background-image: url("../../assets/icons/lang/python1.png");
+}
+/* line 53, ../sass/_base.scss */
+#python:hover {
+  background-image: url("../../assets/icons/lang/python2.png");
+}
+
+/* line 299, ../sass/style.scss */
+#git {
+  background-image: url("../../assets/icons/lang/git1.png");
+}
+/* line 53, ../sass/_base.scss */
+#git:hover {
+  background-image: url("../../assets/icons/lang/git2.png");
+}
+
+/* line 303, ../sass/style.scss */
+#ink {
+  background-image: url("../../assets/icons/lang/ink1.png");
+}
+/* line 53, ../sass/_base.scss */
+#ink:hover {
+  background-image: url("../../assets/icons/lang/ink2.png");
+}
+
+/* line 307, ../sass/style.scss */
+#ps {
+  background-image: url("../../assets/icons/lang/ps1.png");
+}
+/* line 53, ../sass/_base.scss */
+#ps:hover {
+  background-image: url("../../assets/icons/lang/ps2.png");
+}
+
+/* line 311, ../sass/style.scss */
+#azure {
+  background-image: url("../../assets/icons/lang/azure1.png");
+}
+/* line 53, ../sass/_base.scss */
+#azure:hover {
+  background-image: url("../../assets/icons/lang/azure2.png");
+}
+
+/* line 315, ../sass/style.scss */
 section {
   width: 29%;
   float: left;
@@ -330,7 +448,7 @@ section {
   text-align: center;
 }
 
-/* line 272, ../sass/style.scss */
+/* line 322, ../sass/style.scss */
 #me {
   margin-top: 5%;
   height: 100px;
@@ -338,29 +456,29 @@ section {
   box-shadow: 5px 0px 5px #14191a;
 }
 
-/* line 279, ../sass/style.scss */
+/* line 329, ../sass/style.scss */
 ul.social li {
   display: inline;
 }
-/* line 281, ../sass/style.scss */
+/* line 331, ../sass/style.scss */
 ul.social li img {
   height: 60px;
 }
 
-/* line 286, ../sass/style.scss */
+/* line 336, ../sass/style.scss */
 footer {
   background: #333333;
   width: 100%;
   overflow: hidden;
   opacity: 0.90;
 }
-/* line 291, ../sass/style.scss */
+/* line 341, ../sass/style.scss */
 footer p, footer h3, footer a {
   color: #FFF;
   text-decoration: none;
 }
 
-/* line 297, ../sass/style.scss */
+/* line 347, ../sass/style.scss */
 #second {
   border-top: 1px solid #4D4E50;
   background-color: #333333;
@@ -370,19 +488,19 @@ footer p, footer h3, footer a {
 }
 
 @media screen and (max-width: 478px) {
-  /* line 306, ../sass/style.scss */
+  /* line 356, ../sass/style.scss */
   body {
     position: absolute;
   }
 
-  /* line 310, ../sass/style.scss */
+  /* line 360, ../sass/style.scss */
   .header-intro {
     font-size: 100%;
     margin-left: 5%;
     margin-right: 5%;
   }
 
-  /* line 316, ../sass/style.scss */
+  /* line 366, ../sass/style.scss */
   section {
     float: left;
     width: 100%;

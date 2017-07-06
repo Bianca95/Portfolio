@@ -5,20 +5,25 @@ $red: #ec7964;
 
 h2, p {
 	text-align: centre;
-	color: white;
+	color: $red;
 	margin: 10px;
 }
 
-#image1 {
-	@include cover("../../assets/images/black.jpg");
+.image1 {        
+	background-image: url("../../assets/images/black1.jpg");
+	
 }
 
-#image2 {
-	@include cover("../../assets/images/black2.jpg");
+.image2 {
+	background-image: url("../../assets/images/black2.jpg");
 }
 
-#image3 {
-	@include cover("../../assets/images/black3.jpg");
+.image3 {
+	background-image: url("../../assets/images/black3.jpg");
+}
+
+.image4 {
+	background-image: url("../../assets/images/black4.jpg");
 }
 
 .container {
@@ -27,34 +32,55 @@ h2, p {
   	
 }
 
-.caption {
-	@include centre;
-	width: 400px;
-	height: 400px;
-	background: $red;
-	opacity: 0.8;
-	margin: 20px auto;
+.left {
+	width: 50%;
+	float: left;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-.round {
-	border-radius: 50%;
+.right {
+	width: 50%;
+	float: right;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.grey {
+	background-color: #D6D6D6;
+}
+
+.button {
+	width: 100px;
+    height: 20px;
+    margin: none; 
+    background-color: transparent;
+    border: 2px solid $red;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    color: $red;
+ 	padding: 5px;
+    transition: background-color 0.8s ease;
+    &:hover {
+      background-color: #ec7964;
+      color: white;
+    }
 }
 
 .text {
 	display: block;
 	max-width: 300px;
-	text-align: center;
-}
-
-@media screen and (min-width: 770px) {
-	#image1, #image2 {
-		background-attachment: fixed;
-	}
+	text-align: center;	
 }
 
 @media screen and (max-width: 500px) {
 	.caption {
 		height: 300px;
 		width: 300px;
+	}
+
+	.left, .right, .grey{
+		width: 100%;
 	}
 }

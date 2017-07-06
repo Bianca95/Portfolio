@@ -1,38 +1,31 @@
 /* line 6, ../sass/projects.scss */
 h2, p {
   text-align: centre;
-  color: white;
+  color: #ec7964;
   margin: 10px;
 }
 
 /* line 12, ../sass/projects.scss */
-#image1 {
-  background: url("../../assets/images/black.jpg") no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.image1 {
+  background-image: url("../../assets/images/black1.jpg");
 }
 
-/* line 16, ../sass/projects.scss */
-#image2 {
-  background: url("../../assets/images/black2.jpg") no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+/* line 17, ../sass/projects.scss */
+.image2 {
+  background-image: url("../../assets/images/black2.jpg");
 }
 
-/* line 20, ../sass/projects.scss */
-#image3 {
-  background: url("../../assets/images/black3.jpg") no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+/* line 21, ../sass/projects.scss */
+.image3 {
+  background-image: url("../../assets/images/black3.jpg");
 }
 
-/* line 24, ../sass/projects.scss */
+/* line 25, ../sass/projects.scss */
+.image4 {
+  background-image: url("../../assets/images/black4.jpg");
+}
+
+/* line 29, ../sass/projects.scss */
 .container {
   height: 100vh;
   text-align: centre;
@@ -41,41 +34,63 @@ h2, p {
   align-items: center;
 }
 
-/* line 30, ../sass/projects.scss */
-.caption {
-  text-align: centre;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 400px;
-  height: 400px;
-  background: #ec7964;
-  opacity: 0.8;
-  margin: 20px auto;
+/* line 35, ../sass/projects.scss */
+.left {
+  width: 50%;
+  float: left;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-/* line 39, ../sass/projects.scss */
-.round {
-  border-radius: 50%;
+/* line 42, ../sass/projects.scss */
+.right {
+  width: 50%;
+  float: right;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-/* line 43, ../sass/projects.scss */
+/* line 49, ../sass/projects.scss */
+.grey {
+  background-color: #D6D6D6;
+}
+
+/* line 53, ../sass/projects.scss */
+.button {
+  width: 100px;
+  height: 20px;
+  margin: none;
+  background-color: transparent;
+  border: 2px solid #ec7964;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+  color: #ec7964;
+  padding: 5px;
+  transition: background-color 0.8s ease;
+}
+/* line 65, ../sass/projects.scss */
+.button:hover {
+  background-color: #ec7964;
+  color: white;
+}
+
+/* line 71, ../sass/projects.scss */
 .text {
   display: block;
   max-width: 300px;
   text-align: center;
 }
 
-@media screen and (min-width: 770px) {
-  /* line 50, ../sass/projects.scss */
-  #image1, #image2 {
-    background-attachment: fixed;
-  }
-}
 @media screen and (max-width: 500px) {
-  /* line 56, ../sass/projects.scss */
+  /* line 78, ../sass/projects.scss */
   .caption {
     height: 300px;
     width: 300px;
+  }
+
+  /* line 83, ../sass/projects.scss */
+  .left, .right, .grey {
+    width: 100%;
   }
 }

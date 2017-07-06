@@ -260,6 +260,58 @@ header {
   @include icon(css);
 }
 
+#sass {
+  @include icon(sass);
+}
+
+#php {
+  @include icon(php);
+}
+
+#mysql {
+  @include icon(mysql);
+}
+
+#js {
+  @include icon(js);
+}
+
+#jq {
+  @include icon(jq);
+}
+
+#b {
+  @include icon(b);
+}
+
+#java {
+  @include icon(java);
+}
+
+#csharp {
+  @include icon(csharp);
+}
+
+#python {
+  @include icon(python);
+}
+
+#git {
+  @include icon(git);
+}
+
+#ink {
+  @include icon(ink);
+}
+
+#ps {
+  @include icon(ps);
+}
+
+#azure {
+  @include icon(azure);
+}
+
 section {
   width: 29%;
   float: left;
