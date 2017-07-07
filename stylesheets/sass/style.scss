@@ -249,6 +249,7 @@ header {
     transition: background-image 0.8s ease;
     &:hover {
       background-color: #ec7964;
+      transition: background-image 0.8s ease;
     }
 }
 /* Uses fct in base to set and change img */

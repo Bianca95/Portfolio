@@ -9,6 +9,10 @@ h2, p {
 	margin: 10px;
 }
 
+a {
+	text-decoration: none;
+}
+
 .image1 {        
 	background-image: url("../../assets/images/black1.jpg");
 	
@@ -28,8 +32,7 @@ h2, p {
 
 .container {
   	height: 100vh;
-  	@include centre;
-  	
+  	@include centre;	
 }
 
 .left {
@@ -59,8 +62,8 @@ h2, p {
     border-radius: 5px;
     display: inline-block;
     text-align: center;
-    color: $red;
  	padding: 5px;
+ 	color: $red;
     transition: background-color 0.8s ease;
     &:hover {
       background-color: #ec7964;
