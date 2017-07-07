@@ -8,8 +8,11 @@
     <link rel="icon" href="assets/icons/tab-icon.ico">
 
     <link rel="stylesheet" href="stylesheets/stylesheets/style.css">
-    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
+    <link rel="stylesheet" href="stylesheets/stylesheets/reset.css">
     <link rel="stylesheet" href="stylesheets/stylesheets/timeline.css">
+    <link rel="stylesheet" href="stylesheets/stylesheets/style.css">
+
+    <script src="scripts/timeline/modernizr.js"></script> <!-- Modernizr -->
     
 </head>
 <body>
@@ -31,161 +34,153 @@
 		</div>
 	</nav>
 
-	<div class="timeline">
-		<h2>2017</h2>
-		<ul class="timeline-items">
-			<li class="is-hidden timeline-item inverted">
-				<h3>CodeTheCity 2017</h3>
-				<hr>
-				<p>My team and I created NoBot, a chatbot that prevents unnecessary meetings saving the company money and time in a sarcastic manner. It logs minutes and agendas and sends them to the team members at the end of the meeting. Further development would involve connecting it to Google Calendar to check availability and book meetings. Done using Slack in node.js with a redis database for agendas.</p>
-				<hr>
-				<time>February 2017</time>
-			</li>
-		</ul>
+	<section class="cd-horizontal-timeline">
+		<div class="timeline">
+			<div class="events-wrapper">
+				<div class="events">
+					<ol>
+						<li><a href="#0" data-date="16/01/2009" class="selected">Jan 2009</a></li>
+						<li><a href="#0" data-date="19/04/2009">June 2011</a></li>
+						<li><a href="#0" data-date="20/05/2009">Jan 2012</a></li>
+						<li><a href="#0" data-date="15/08/2009">June 2012</a></li>
+						<li><a href="#0" data-date="18/10/2009">June 2014</a></li>
+						<li><a href="#0" data-date="03/12/2009">Aug 2014</a></li>
+						<li><a href="#0" data-date="05/01/2010">Sep 2014</a></li>
+						<li><a href="#0" data-date="22/04/2010">June 2015</a></li>
+						<li><a href="#0" data-date="16/06/2010">June 2016</a></li>
+						<li><a href="#0" data-date="15/09/2010">Oct 2016</a></li>
+						<li><a href="#0" data-date="12/10/2010">Nov 2016</a></li>
+						<li><a href="#0" data-date="16/02/2011">Feb 16, 2017</a></li>
+						<li><a href="#0" data-date="28/03/2011">Feb 28, 2017</a></li>
+						<li><a href="#0" data-date="14/07/2011">July 2017</a></li>
+					</ol>
 
-		<ul class="timeline-items">
-			<li class="is-hidden timeline-item">
-				<h3>Hashcode 2017</h3>
-				<hr>
-				<p>My team and I created a Java application that optimised cache memory for youtube depending on the number of requests from the endpoints. The program scans a file with data on the number of videos, sizes, cache spaces and latencies and assigns videos to caches in the most efficient manner.</p>
-				<hr>
-				<time>February 2017</time>
-			</li>
-		</ul>
+					<span class="filling-line" aria-hidden="true"></span>
+				</div> <!-- .events -->
+			</div> <!-- .events-wrapper -->
+				
+			<ul class="cd-timeline-navigation">
+				<li><a href="#0" class="prev inactive">Prev</a></li>
+				<li><a href="#0" class="next">Next</a></li>
+			</ul> <!-- .cd-timeline-navigation -->
+		</div> <!-- .timeline -->
 
-		<h2>2016</h2>
-		<ul class="timeline-items">
-			<li class="is-hidden timeline-item inverted">
-				<h3>Code for Good 2016</h3>
-				<hr>
-				<p>Code for good 2016 was organised in Glasgow by J.P.Morgan. My team and I coded over the weekend for 24 hours an application for a charity aiming to teach children safety on the road. We used Java and Reactivision, a vision recognision library with special markers to create an application that launched certain animations when specific markers were shown to the camera. The project is to be further developed and could be displayed on the floor with the help of a projector. The children could play interactively as lolypop men, drivers, pedestrians and bike riders to learn rules and safety on the road.</p>
-				<hr>
-				<time>November 2016</time>
-			</li>
-		</ul>
+		<div class="events-content">
+			<ol>
+				<li class="selected" data-date="16/01/2009">
+					<h2>GROW 0.9</h2>
+					<em>January 16th, 2009</em>
+					<p>	
+						I participated to "GROW 0.9", a nationwide youth development program dedicated to building communication and organizing skills and discovering strengths and weaknesses
+					</p>
+				</li>
 
-		<ul class="timeline-items">
-			<li class="is-hidden timeline-item centered">
-				<h3>Shaw Academy Diploma in Photography</h3>
-				<hr>
-				<p>I gained a <a href="http://www.proprofs.com/quiz-school/usercertificate.php?id=116490288&qid=1608402&uname=Bianca%20Prodan">diploma in photography</a> after following the photography course offered by Shaw Academy, one of the best online education providers.</p>
-				<hr>
-				<time>15 October 2016</time>
-			</li>
-		</ul>
+				<li data-date="19/04/2009">
+					<h2>Student of the Year</h2>
+					<em>June 19th, 2011</em>
+					<p>	
+						I gained the Student of the Year Award 2010-2011
+					</p>
+				</li>
 
-		<ul class="timeline-items">
-			<li class="is-hidden timeline-item">
-				<h3>Ongoing Study</h3>
-				<hr>
-				<p>Currently studying year 3 Application Software Development
-				at Robert Gordon University, Aberdeen, Scotland.</p>
-				<hr>
-				<time>September 2016</time>
-			</li>
-		</ul>
+				<li data-date="20/05/2009">
+					<h2>Digital Arts</h2>
+					<em>January 20th, 2012</em>
+					<p>	
+						I won the second place in a Digital Arts contest between all the colleges of Bucharest
+					</p>
+				</li>
 
-		<ul class="timeline-items">
-			<li class="is-hidden timeline-item inverted">
-				<h3>HND in Software Development</h3>
-				<hr>
-				<p>Successfully finished the Software Development course at North East Scotland College, Aberdeen, Scotland with a Higher National Diploma.<br /><strong>Skills gained: </strong> professionalism and ethics, teamwork, JavaScript, Python, MySQL, Visual Basic, Touch develop, AppInventor, Microsoft Project, troubleshooting computer problems</p>
-				<hr>
-				<time>June 2016</time>
-			</li>
-		</ul>
+				<li data-date="15/08/2009">
+					<h2>Student of the Year</h2>
+					<em>June 15th, 2012</em>
+					<p>	
+						I gained the Student of the Year Award 2011-2012 and finished Maths and I.T. at National College Mihai Eminescu, Bucharest, Romania
+					</p>
+				</li>
 
-		<h2>2015</h2>
-		<ul class="timeline-items">
-			<li class="is-hidden timeline-item centered">
-				<h3>Volunteering for S.T.E.M</h3>
-				<hr>
-				<p>Science Technology Engineering and Mathematics a.k.a S.T.E.M consisted in building the prototype of an app to aid 14 years old children study S.T.E.M subjects in a fun way. <br />I had the role of graphical designer and my duties consisted in pitching ideas, gathering ideas from the team, user market and clients into one design, sketch, work closely with our customers and children for feedback, deal with the pressure of having several schools as clients and real project deadlines.</p>
-				<hr>
-				<time>November 2014 - June 2015</time>
-			</li>
-		</ul>
+				<li data-date="18/10/2009">
+					<h2>Student of the Year for NC Digital Media</h2>
+					<em>June 18th, 2014</em>
+					<p>	
+						I gained the Student of the Year Award 2013-2014 and successfully finished the Digital Media course at North East Scotland College, Aberdeen, Scotland 
+					</p>
+				</li>
 
-		<h2>2014</h2>
-		<ul class="timeline-items">
-			<li class="is-hidden timeline-item">
-				<h3>The ongoing family business</h3>
-				<hr>
-				<p><strong>Bake Day</strong>, a cake charity that evolved in a family business. <br /> As a business partner I had the opportunity to learn about the legislation involved when starting a business, how to professionally offer services, to present a product, marketing, how to deal with customers and orders and how to organise financially.</p>
-				<hr>
-				<time>August 2014</time>
-			</li>
-		</ul>
+				<li data-date="03/12/2009">
+					<h2>Enterprise Challenge</h2>
+					<em>August 3rd, 2014</em>
+					<p>	
+						I won a three-day Enterprise Challenge organised by Business Gateway and a medal after proving my leadership and communication skills
+					</p>
+				</li>
 
-		<ul class="timeline-items">
-			<li class="is-hidden timeline-item inverted">
-				<h3>NC in Digital Media</h3>
-				<hr>
-				<p>Successfully finished the Digital Media course at North East Scotland College, Aberdeen, Scotland with a Scottish National Certificate.<br /><strong>Skills gained: </strong> Access, Excel, Photoshop, Illustrator, Flash, Dreamweaver, Movie Maker, Game Maker, Audacity, photography, hardware components, business in I.T, computing legislation.</p>
-				<hr>
-				<time>June 2014</time>
-			</li>
-		</ul>
+				<li data-date="05/01/2010">
+					<h2>Small Business</h2>
+					<em>September 5th, 2014</em>
+					<p>	
+						Bake Day, a cake charity that evolved in a family business. <br /> As a business partner I had the opportunity to learn about the legislation involved when starting a business, how to professionally offer services, to present a product, marketing, how to deal with customers and orders and how to organise financially
+					</p>
+				</li>
 
-		<ul class="timeline-items">
-			<li class="is-hidden timeline-item">
-				<h3>Won a three-day Enterprise Challenge organised by Business Gateway and a medal after proving my leadership and communication skills.</h3>
-				<hr>
-				<time>August 2014</time>
-			</li>
-		</ul>
+				<li data-date="22/04/2010">
+					<h2>Volunteering for S.T.E.M</h2>
+					<em>June 6th, 2015</em>
+					<p>	
+						This S.T.E.M (Science Technology Engineering and Mathematics) project consisted in building the prototype of an app to aid 14 years old children study S.T.E.M subjects in a fun way. <br />I had the role of graphical designer and my duties consisted in pitching ideas, gathering ideas from the team, user market and clients into one design, sketch, work closely with our customers and children for feedback, deal with the pressure of having several schools as clients and real project deadlines
+					</p>
+				</li>
 
-		<ul class="timeline-items">
-			<li class="is-hidden timeline-item inverted">
-				<h3>Gained the Student of the Year Award 2013-2014</h3>
-				<hr>
-				<time>June 2014</time>
-			</li>
-		</ul>
+				<li data-date="16/06/2010">
+					<h2>HND in Software Development</h2>
+					<em>June 16th, 2016</em>
+					<p>	
+						I successfully finished the Software Development course at North East Scotland College, Aberdeen, Scotland with a Higher National Diploma
+					</p>
+				</li>
 
-		<h2>2012</h2>
-		<ul class="timeline-items">
-			<li class="is-hidden timeline-item centered">
-				<h3>Finished Maths and I.T. at National College Mihai Eminescu, Bucharest, Romania</h3>
-				<hr>
-				<time>2009-2012</time>
-			</li>
-		</ul>
+				<li data-date="15/09/2010">
+					<h2>Diploma in Photography</h2>
+					<em>October 15th, 2016</em>
+					<p>	
+						I gained a <a href="http://www.proprofs.com/quiz-school/usercertificate.php?id=116490288&qid=1608402&uname=Bianca%20Prodan">diploma in photography</a> after following the photography course offered by Shaw Academy, one of the best online education providers
+					</p>
+				</li>
 
-		<ul class="timeline-items">
-			<li class="is-hidden timeline-item">
-				<h3>Gained the Student of the Year Award 2011-2012</h3>
-				<hr>
-				<time>June 2012</time>
-			</li>
-		</ul>
+				<li data-date="12/10/2010">
+					<h2>Code for Good by J.P.Morgan</h2>
+					<em>November 12th, 2016</em>
+					<p>	
+						Code for good 2016 was organised in Glasgow by J.P.Morgan. My team and I coded over the weekend for 24 hours an application for a charity aiming to teach children safety on the road. We used Java and Reactivision, a vision recognision library with special markers to create an application that launched certain animations when specific markers were shown to the camera. The project is to be further developed and could be displayed on the floor with the help of a projector. The children could play interactively as lolypop men, drivers, pedestrians and bike riders to learn rules and safety on the road
+					</p>
+				</li>
 
-		<ul class="timeline-items">
-			<li class="is-hidden timeline-item inverted">
-				<h3>Won the second place in a Digital Arts contest between all the colleges of Bucharest.</h3>
-				<hr>
-				<time>January 2012</time>
-			</li>
-		</ul>
+				<li data-date="16/02/2011">
+					<h2>Hashcode by Google</h2>
+					<em>February 16th, 2017</em>
+					<p>	
+						My team and I created a Java application that optimised cache memory for youtube depending on the number of requests from the endpoints. The program scans a file with data on the number of videos, sizes, cache spaces and latencies and assigns videos to caches in the most efficient manner
+					</p>
+				</li>
 
-		<h2>2011</h2>
-		<ul class="timeline-items">
-			<li class="is-hidden timeline-item centered">
-				<h3>Gained the Student of the Year Award 2010-2011</h3>
-				<hr>
-				<time>June 2011</time>
-			</li>
-		</ul>
+				<li data-date="28/03/2011">
+					<h2>CodeTheCity</h2>
+					<em>February 28th, 2017</em>
+					<p>	
+						My team and I created NoBot, a chatbot that prevents unnecessary meetings saving the company money and time in a sarcastic manner. It logs minutes and agendas and sends them to the team members at the end of the meeting. Further development would involve connecting it to Google Calendar to check availability and book meetings. Done using Slack in node.js with a redis database for agendas
+					</p>
+				</li>
 
-		<h2>2010</h2>
-		<ul class="timeline-items">
-			<li class="is-hidden timeline-item centered">
-				<h3>I participated to "GROW 0.9", a nationwide youth development program dedicated to building communication and organizing skills and discovering strengths and weaknesses</h3>
-				<hr>
-				<time>2009-2010</time>
-			</li>
-		</ul>		
-	</div>
+				<li data-date="14/07/2011">
+					<h2>Student of the Year for High Diploma in Software Development</h2>
+					<em>July 28th, 2017</em>
+					<p>	
+						I gained the Student of the Year Award 2016-2017, year three of High Diploma in Software Development at Robert Gordon University, Aberdeen, Scotland
+					</p>
+				</li>
+			</ol>
+		</div> <!-- .events-content -->
+	</section>
 
 	<footer>
 		<section>
@@ -212,17 +207,10 @@
 		<p>©Copyright Bianca Prodan 2016</p>
 	</footer>
 
-<script src="http://code.jquery.com/jquery-3.1.0.slim.min.js"></script>
-<script type="text/javascript" src="scripts/menu.js"></script>
-<script src="scripts/jquery.timelify.js"></script>
-<script>
-	$('.timeline').timelify({
-		animLeft: "fadeInLeft",
-		animCenter: "fadeInUp",
-		animRight: "fadeInRight",
-		animSpeed: 600,
-		offset: 150
-	});
-</script>
+	<script src="http://code.jquery.com/jquery-3.1.0.slim.min.js"></script>
+	<script type="text/javascript" src="scripts/menu.js"></script>
+	<script src="scripts/timeline/jquery-2.1.4.js"></script> 
+	<script src="scripts/timeline/jquery.mobile.custom.min.js"></script>
+	<script src="scripts/timeline/main.js"></script> <!-- Resource jQuery -->		
 </body>
 </html>
