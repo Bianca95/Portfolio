@@ -1,1 +1,0 @@
-echo "Thank you, the form has been sumbitted";
